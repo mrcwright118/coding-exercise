@@ -1,3 +1,5 @@
+# Christopher Wright - 2019 (mrcwright118)
+# Script to find duplicated letters
 duplicate_letters = ARGV[0]
 
 letter_map = {}
@@ -11,3 +13,4 @@ letter_map.each do |k,v|
         puts %Q(#{k}: #{v})
     end
 end
+
